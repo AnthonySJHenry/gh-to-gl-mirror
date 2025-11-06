@@ -2,7 +2,7 @@ name: ESLint
 on:
   push:
     branches: [main]
-    paths: ["**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx", "**/*.mjs", "**/*.cjs"]
+    paths: ['**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx', '**/*.mjs', '**/*.cjs']
 
 jobs:
   lint:

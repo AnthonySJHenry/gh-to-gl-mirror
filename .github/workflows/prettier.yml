@@ -2,7 +2,25 @@ name: Prettier
 on:
   push:
     branches: [main]
-    paths: ["**/*.md", "**/*.yml", "**/*.yaml", "**/*.json", "**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx", "**/*.cjs", "**/*.mjs", "**/*.css", "**/*.mdx", "**/*.html", "**/*.scss", "**/*.sass", "**/*.less"]
+    paths:
+      [
+        '**/*.md',
+        '**/*.yml',
+        '**/*.yaml',
+        '**/*.json',
+        '**/*.ts',
+        '**/*.tsx',
+        '**/*.js',
+        '**/*.jsx',
+        '**/*.cjs',
+        '**/*.mjs',
+        '**/*.css',
+        '**/*.mdx',
+        '**/*.html',
+        '**/*.scss',
+        '**/*.sass',
+        '**/*.less',
+      ]
 
 jobs:
   check:

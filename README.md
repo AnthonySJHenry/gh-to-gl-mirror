@@ -1,6 +1,7 @@
 ## Automation of Mirroring to GitLab
-> Purpose: To automate the mirroring of a GitHub repository to GitLab using a GitHub Actions workflow.
-> Constraints: CLI only, no GUI.
+
+> Purpose: To automate the mirroring of a GitHub repository to GitLab using a GitHub Actions
+> workflow. Constraints: CLI only, no GUI.
 
 #### Part of the script to create a private repository
 
